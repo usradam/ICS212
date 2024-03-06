@@ -101,7 +101,7 @@ Assume you have the following variables and values:
   - The `m` integers are already sorted in an increasing order.
 - Note: An integer value can be **negative**.
 
-Write your pseudocode achieving the following requirements. Use and modify this template file: pseudocode.txt.
+Write your pseudocode achieving the following requirements. Use and modify this template file: [pseudocode.txt]
 
 - Insert the value of `num` into the array `numbers`. The resulting integers must be in an increasing order.
 
