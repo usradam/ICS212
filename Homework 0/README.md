@@ -18,6 +18,7 @@ example:
 ```
 define an int called i
 ```
+
 - copy from **expression** to **variable_name**
 
 note: the data type of **expression** must match that of **variable_name**
@@ -31,8 +32,8 @@ copy from i to numbers[i]
 ```
 
 - while (**boolean_expression**)
-  - note1: inside a while loop, put 4 white spaces for indents
-  - note2: you CANNOT use a break statement.
+  - note 1: inside a while loop, put 4 white spaces for indents
+  - note 2: you CANNOT use a break statement.
 
 example:
 ```
@@ -117,36 +118,28 @@ example:
 
 ## FAQs
 - Q: *"Can I assume that the uninitialized elements of the array hold 0 or a special value?"*
-
-A: No. They are just uninitialized. They may have 1, -47, 0, or any possible integer value.
+  A: No. They are just uninitialized. They may have 1, -47, 0, or any possible integer value.
 
 - Q: *"In pseudocode.txt, do I need to keep/modify the header?"*
-
-A: You don't have to. The header is just for a reminder about the assumptions. You can just start your pseudocode after the header.
+  A: You don't have to. The header is just for a reminder about the assumptions. You can just start your pseudocode after the header.
 
 - Q: *"Can I use a for-loop?"*
-
-A: No. Use while or do-while as shown in the vocabulary list.
+  A: No. Use while or do-while as shown in the vocabulary list.
 
 - Q: *"Can I define/call a function?"*
-
-A: No.
+  A: No.
 
 - Q: *"I don't understand what the 'copy from ...' line means."*
-
-A: When you have `copy from 1 + 1 to i`, you are assigning `1+1`, which is 2, to the variable `i`, so `i` will have 2. When you have copy from `i + 1 to i`, you are incrementing `i`, so it will have a value greater than the previous value by 1.
+  A: When you have `copy from 1 + 1 to i`, you are assigning `1+1`, which is 2, to the variable `i`, so `i` will have 2. When you have copy from `i + 1 to i`, you are incrementing `i`, so it will have a value greater than the previous value by 1.
 
 - Q: *"Can I define a variable and initialize it in one line?"*
-
-A: No. Assign an initial value to it in another line after you define the variable.
+  A: No. Assign an initial value to it in another line after you define the variable.
 
 - Q: *"Can I define another array?"*
-
-A: No.
+  A: No.
 
 - Q: *"I am attaching my pseudocode.txt. Could you tell me if it is correct?"*
-
-A: Please at least trace your pseudocode with specific values. (Otherwise, I will just tell you if it correctly uses the vocabulary or not) You can just draw a table on a piece of paper in a similar way as you do on C code in the classes, and put some specific values. Then, run your pseudocode by each line.
+  A: Please at least trace your pseudocode with specific values. (Otherwise, I will just tell you if it correctly uses the vocabulary or not) You can just draw a table on a piece of paper in a similar way as you do on C code in the classes, and put some specific values. Then, run your pseudocode by each line.
 
 Here are some examples. Note that your pseudocode must work on other possible cases.
 - Case 1:
