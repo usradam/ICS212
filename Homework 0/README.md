@@ -7,6 +7,8 @@ Plus, we are going to use **our own vocabulary** for pseudocode, which is not th
 
 ${{\color{Red}{\textsf{If your pseudocode contains significant amount of invalid usage, you will get 0pt}}}}
 
+${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
+
 ## Vocabulary
 Use ONLY the following vocabulary.
 
