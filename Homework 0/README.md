@@ -5,20 +5,19 @@ You will write pseudocode to achieve the task described below. Please note that 
 
 Plus, we are going to use **our own vocabulary** for pseudocode, which is not the same as what you can find on the Internet or in some textbook of algorithm. That is, **please carefully check the vocabulary list and use only the available rules.**
 
-${{\color{Red}{\textsf{If your pseudocode contains significant amount of invalid usage, you will get 0pt}}}}
-
 ${{\color{Red}\normalsize{\textsf{If your pseudocode contains significant amount of invalid usage, you will get 0pt}}}}\$
 
 ## Vocabulary
-Use ONLY the following vocabulary.
+Use ${{\color{Red}\normalsize{\textsf{ONLY}}}}\$ the following vocabulary.
 
-replace the bold parts with your variables and expressions.
+*replace the bold parts with your variables and expressions.*
 
-define an int called variable_name
+- define an int called **variable_name**
 
 example:
-
+```
 define an int called i
+```
 copy from expression to variable_name
 
 note: the data type of expression must match that of variable_name
