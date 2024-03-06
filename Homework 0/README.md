@@ -5,9 +5,7 @@ You will write pseudocode to achieve the task described below. Please note that 
 
 Plus, we are going to use **our own vocabulary** for pseudocode, which is not the same as what you can find on the Internet or in some textbook of algorithm. That is, **please carefully check the vocabulary list and use only the available rules.**
 
-```diff
-- If your pseudocode contains significant amount of invalid usage, you will get 0pt!
-```
+$${\color{If your pseudocode contains significant amount of invalid usage, you will get 0pt}Red}$$
 
 ## Vocabulary
 Use ONLY the following vocabulary.
