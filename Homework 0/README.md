@@ -18,20 +18,21 @@ example:
 ```
 define an int called i
 ```
-copy from expression to variable_name
+- copy from **expression** to **variable_name**
 
-note: the data type of expression must match that of variable_name
+note: the data type of **expression** must match that of **variable_name**
 
 example:
-
+```
 copy from 1+1 to i
 copy from 100 to i
 copy from numbers[0] to i
 copy from i to numbers[i]
-while (boolean_expression)
+```
 
-note1: inside a while loop, put 4 white spaces for indents
-note2: you CANNOT use a break statement.
+- while (**boolean_expression**)
+ - note1: inside a while loop, put 4 white spaces for indents
+ - note2: you CANNOT use a break statement.
 example:
 
 while ( i < 10 )
