@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+*** Assume the following variables are already defined. ***
+
+- numbers: array of int
+- n: the size of the integer array (numbers)
+- m: the number of first slots which already have values (m < n)
+- num: the number to insert to the array
+--------------------------------------------------------------------------------
+
+* WRITE YOUR PSEUDOCODE HERE
+
