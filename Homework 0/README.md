@@ -71,6 +71,7 @@ else if ( j < 5 || 8 < j )
 ## Example of Pseudocode
 Here is an example of pseudocode which initializes an element of numbers with 0 if it is less than 10. Your pseudocode must follow the same format. You can insert blank lines so that the pseudocode is more readable. Make sure that you always use white spaces for indents. (Never use the Tab key!)
 
+```
 define an int called i
 
 copy from 0 to i
@@ -79,6 +80,7 @@ while ( i < m )
         copy from 0 to numbers[i]
 
     copy from i + 1 to i
+```
 
 ## Task
 Assume you have the following variables and values:
