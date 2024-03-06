@@ -31,8 +31,8 @@ copy from i to numbers[i]
 ```
 
 - while (**boolean_expression**)
- - note1: inside a while loop, put 4 white spaces for indents
- - note2: you CANNOT use a break statement.
+  - note1: inside a while loop, put 4 white spaces for indents
+    - note2: you CANNOT use a break statement.
 example:
 
 while ( i < 10 )
