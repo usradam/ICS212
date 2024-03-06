@@ -106,7 +106,11 @@ Write your pseudocode achieving the following requirements. Use and modify this 
 - Insert the value of `num` into the array `numbers`. The resulting integers must be in an increasing order.
 
 example:
-![image](https://github.com/usradam/ICS212/assets/147444558/5a1cbee2-d871-4e1e-ba6c-d8a2075d68f3)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/usradam/ICS212/assets/147444558/5a1cbee2-d871-4e1e-ba6c-d8a2075d68f3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/usradam/ICS212/assets/147444558/5a1cbee2-d871-4e1e-ba6c-d8a2075d68f3">
+  <img alt="Shows an example of inserting value of num into the array numbers. Integers are in increasing order." src="https://github.com/usradam/ICS212/assets/147444558/5a1cbee2-d871-4e1e-ba6c-d8a2075d68f3">
+</picture>
 
 - Once `num` is inserted into `numbers`, **update** `m` so it indicates the correct number of items in the array.
 
