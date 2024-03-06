@@ -1,11 +1,13 @@
 # ICS 212 - Homework 0
 
 ## Pseudocode [4 pts]
-You will write pseudocode to achieve the task described below. Please note that pseudocode is NOT the C language at all. Some of you may think of writing C code first and then "translate" it into pseudocode. But please don't do this!!! Many students in the past did this and eventually suffered from a lot of problems in the later assignments.
+You will write pseudocode to achieve the task described below. Please note that pseudocode is **NOT** the C language at all. Some of you may think of writing C code first and then "translate" it into pseudocode. But **please don't do this!!!** Many students in the past did this and eventually suffered from a lot of problems in the later assignments.
 
-Plus, we are going to use our own vocabulary for pseudocode, which is not the same as what you can find on the Internet or in some textbook of algorithm. That is, please carefully check the vocabulary list and use only the available rules.
+Plus, we are going to use **our own vocabulary** for pseudocode, which is not the same as what you can find on the Internet or in some textbook of algorithm. That is, **please carefully check the vocabulary list and use only the available rules.**
 
-If your pseudocode contains significant amount of invalid usage, you will get 0pt!
+```diff
+- If your pseudocode contains significant amount of invalid usage, you will get 0pt!
+```
 
 ## Vocabulary
 Use ONLY the following vocabulary.
