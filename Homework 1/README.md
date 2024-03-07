@@ -14,9 +14,7 @@ Read these parts of the textbook:
 ## 1. Learn how to access UH Unix
 Please refer to How to Acceess UH Unix and Use Commands. The instructions are different for the OS of your local machine. After that, you are supposed to be able to upload/download files and also run Unix commands on UH Unix.
 
-<span style="color:red">Please be careful as some commands such as `rm`/`rmdir` cannot be undone.</span>
-
-${{\color{Red}\normalsize{\textsf{Please be careful as some commands such as `rm`/`rmdir` cannot be undone.}}}}\$
+${{\color{Red}\normalsize{\textsf{Please be careful as some commands such as rm/rmdir cannot be undone.}}}}\$
 
 ## 2. Create a directory for the assignment
 Now you are going to write some code. Log in to UH Unix by SSH and you will be first placed in your home directory.
