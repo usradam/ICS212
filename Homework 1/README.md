@@ -132,7 +132,7 @@ pico homework1.c
 - Download template.c to your PC and then upload it to your directory on UH Unix
 
 Now you have `template.c` in the current directory.
-- Then, rename it as `homework1.c`. ${{\color{Red}\normalsize{\textsf{Note: If you already have `homework1.c`, it will be overwritten.}}}}\$
+- Then, rename it as `homework1.c`. ${{\color{Red}\normalsize{\textsf{Note: If you already have}}}}\$ `homework1.c` ${{\color{Red}\normalsize{\textsf{, it will be overwritten.}}}}\$
 
 ```
 mv template.c homework1.c
@@ -199,7 +199,8 @@ Do-while loop!
 Do-while loop!
 Do-while loop!
 ```
-${{\color{Red}\normalsize{\textsf{Note: the C code must have the equivalent program structure of the Java code (for/while/do-while and if statements). Don't just put a line of printf to print the message above.}}}}\$
+${{\color{Red}\normalsize{\textsf{Note: the C code must have the equivalent program structure of the Java code
+(for/while/do-while and if statements). Don't just put a line of printf to print the message above.}}}}\$
 
 ## 5. Compile your C code
 After saving the file, compile it by `gcc` with `-ansi -pedantic-errors -Wall -c` options.
@@ -217,9 +218,13 @@ To execute your program, type "./" followed by the executable name.
 ## 8. Proof of Compilation and Sample Output
 Use [script](https://www-users.cse.umn.edu/~gini/1901-07s/files/script.html) command in UH Unix to record the terminal outputs, and show that you have used the correct compilation options and your program runs correctly on UH Unix.
 
-${{\color{Red}\normalsize{\textsf{Warning 1: While running the script command, do not run any unrelated command, which could modify the terminal format (e.g., text editor like pico). Otherwise, your file will be filled with many special characters that cannot be displayed correctly.}}}}\$
+${{\color{Red}\normalsize{\textsf{Warning 1: While running the script command, do not run any unrelated command,
+which could modify the terminal format (e.g., text editor like pico). Otherwise, your file will be filled with 
+many special characters that cannot be displayed correctly.}}}}\$
 
-${{\color{Red}\normalsize{\textsf{Warning 2: We strongly recommend you to have a wide terminal window enough to prevent text wrap. If you are using a narrow window and some texts are wrapped, the file may be corrupted and could not be graded.}}}}\$
+${{\color{Red}\normalsize{\textsf{Warning 2: We strongly recommend you to have a wide terminal window enough to
+prevent text wrap. If you are using a narrow window and some texts are wrapped, the file may be corrupted and 
+could not be graded.}}}}\$
 
 - Proof of Compilation
 Run `script` command with the file name to create.
