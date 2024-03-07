@@ -13,6 +13,7 @@ Use ${{\color{Red}\normalsize{\textsf{ONLY}}}}\$ the following vocabulary.
 *Replace the bold parts with your variables and expressions.*
 
 - define an int called **variable_name**
+
 example:
 ```
 define an int called i
