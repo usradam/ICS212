@@ -19,7 +19,7 @@ ${{\color{Red}\normalsize{\textsf{Please be careful as some commands such as}}}}
 ## 2. Create a directory for the assignment
 Now you are going to write some code. Log in to UH Unix by SSH and you will be first placed in your home directory.
 
-In default, the command prompt (the part before '%' in the terminal) shows your current location, but it does not always do. You may see something different if you have (somehow) changed the settings or you are working in an different shell environment. So you should be able to check the current location by running a Unix command. To check the current location, you can use 'pwd'. The output should look like this.
+In default, the command prompt (the part before '%' in the terminal) shows your current location, but it does not always do. You may see something different if you have (somehow) changed the settings or you are working in an different shell environment. So you should be able to check the current location by running a Unix command. To check the current location, you can use `pwd`. The output should look like this.
 
 ```
 uhx02:/home/t/tidota% pwd
@@ -92,6 +92,7 @@ javac helloworld.java
 ```
 
 You should get `helloworld.class`. Then, run the Java program.
+
 ```
 java helloworld
 ```
@@ -120,22 +121,14 @@ To use vi,
 vi homework1.c
 ```
 
-Resources:
-Master the Vi text editor - Linux Tutorial
-An introduction to the vi editor
-Basic vi Commands
-
 If you want to use pico,
 ```
 pico homework1.c
 ```
 
-Resources:
-Getting Started with Pico.
-
 **Don't forget that you must follow the coding style.**
 
-**If you want to use the template file,**
+***If you want to use the template file,***
 - Download template.c to your PC and then upload it to your directory on UH Unix
 
 Now you have `template.c` in the current directory.
@@ -206,7 +199,7 @@ Do-while loop!
 Do-while loop!
 Do-while loop!
 ```
-${{\color{Red}\normalsize{\textsf{Note: the C code must have the equivalent program structure of the Java code. (for/while/do-while and if statements) Don't just put a line of printf to print the message above.}}}}\$
+${{\color{Red}\normalsize{\textsf{Note: the C code must have the equivalent program structure of the Java code (for/while/do-while and if statements). Don't just put a line of printf to print the message above.}}}}\$
 
 ## 5. Compile your C code
 After saving the file, compile it by `gcc` with `-ansi -pedantic-errors -Wall -c` options.
@@ -222,7 +215,7 @@ To execute your program, type "./" followed by the executable name.
 `./homework1`
 
 ## 8. Proof of Compilation and Sample Output
-Use script command in UH Unix to record the terminal outputs, and show that you have used the correct compilation options and your program runs correctly on UH Unix.
+Use [script](https://www-users.cse.umn.edu/~gini/1901-07s/files/script.html) command in UH Unix to record the terminal outputs, and show that you have used the correct compilation options and your program runs correctly on UH Unix.
 
 ${{\color{Red}\normalsize{\textsf{Warning 1: While running the script command, do not run any unrelated command, which could modify the terminal format (e.g., text editor like pico). Otherwise, your file will be filled with many special characters that cannot be displayed correctly.}}}}\$
 
@@ -248,7 +241,7 @@ uhx02:/home/t/tidota/homework1%
 
 Finally, you will get `proof.txt`.
 
-${{\color{Red}\normalsize{\textsf{Verify the file by `cat` command.}}}}\$
+${{\color{Red}\normalsize{\textsf{Verify the file by}}}}\$ `cat` ${{\color{Red}\normalsize{\textsf{command.}}}}\$
 `cat proof.txt`
 
 It will print its contents like this.
@@ -302,7 +295,7 @@ Script done, file is output.txt
 uhx02:/home/t/tidota/homework1%
 ```
 
-${{\color{Red}\normalsize{\textsf{Verify the file by `cat` command.}}}}\$
+${{\color{Red}\normalsize{\textsf{Verify the file by}}}}\$ `cat` ${{\color{Red}\normalsize{\textsf{command.}}}}\$
 `cat output.txt`
 
 It will print its contents like this.
@@ -339,7 +332,7 @@ uhx02:/home/t/tidota/homework1%
 ```
 
 ## 9. Proof of Usage of Unix Commands
-Show that you can now use Unix commands by following the steps below. ${{\color{Red}\normalsize{\textsf{Please be careful when you run `rm`/`rmdir` as they cannot be undone. Don't delete any important files such as your source file!!!!}}}}\$
+Show that you can now use Unix commands by following the steps below. ${{\color{Red}\normalsize{\textsf{Please be careful when you run}}}}\$ `rm` ${{\color{Red}\normalsize{\textsf{/}}}}\$ `rmdir` ${{\color{Red}\normalsize{\textsf{as they cannot be undone. Don't delete any important files such as your source file!!!!}}}}\$
 
 - Go to the directory `homework1`
 - Start `script` command to record the terminal output (the file name must be `unix_prac.txt`)
@@ -389,3 +382,56 @@ Script done on Wed 06 Jan 2021 05:44:53 PM HST
 - Proof of compilation (`proof.txt`)
 - Output of the program (`output.txt`)
 - Proof of Unix commands practice (`unix_prac.txt`)
+
+## How to create a tarball
+You can create it by running this command in the directory where those files exist. **Do not have any typo!!**
+
+`tar zcvf homework1.tar.gz homework1.c proof.txt output.txt unix_prac.txt`
+
+Then, you will get a file named `homework1.tar.gz`. **This is what you will submit.**
+
+To check if the created tarball has the correct files,
+
+`tar tvf homework1.tar.gz`
+
+If the tarball was correctly created, it will print a list of files like this.
+```
+uhx02:/home/t/tidota/homework1% tar tvf homework1.tar.gz
+-rw-r--r-- tidota/uh      1058 2020-07-26 02:49 homework1.c
+-rw-r--r-- tidota/uh       350 2020-07-26 02:49 proof.txt
+-rw-r--r-- tidota/uh       299 2020-07-26 02:49 output.txt
+-rw-r--r-- tidota/uh       205 2020-07-26 02:49 unix_prac.txt
+```
+
+You may want to double check the data. For your practice, you may want to copy the tarball to another directory and try to extract files.
+
+First, create a new directory `test` and copy the tarball there.
+
+```
+mkdir test
+cp homework1.tar.gz ./test/
+```
+
+Then, go to the directory and extract files from the copied tarball.
+
+```
+cd test
+tar zxvf homework1.tar.gz
+```
+
+To check the files you have in the current directory,
+`ls -la`
+The output will look like this.
+```
+uhx02:/home/t/tidota/homework1/test% ls -la
+total 20
+drwxr-xr-x. 2 tidota uh  102 Jul 26 02:52 .
+drwxr-xr-x. 3 tidota uh  114 Jul 26 02:51 ..
+-rw-r--r--. 1 tidota uh 1058 Jul 26 02:49 homework1.c
+-rw-r--r--. 1 tidota uh  930 Jul 26 02:52 homework1.tar.gz
+-rw-r--r--. 1 tidota uh  299 Jul 26 02:49 output.txt
+-rw-r--r--. 1 tidota uh  350 Jul 26 02:49 proof.txt
+-rw-r--r--. 1 tidota uh  205 Jul 26 02:49 unix_prac.txt
+```
+
+To check if the contents are correct, try to compile and run the code, and print out the contents in the text files.
