@@ -5,15 +5,14 @@ You will write pseudocode to achieve the task described below. Please note that 
 
 Plus, we are going to use **our own vocabulary** for pseudocode, which is not the same as what you can find on the Internet or in some textbook of algorithm. That is, **please carefully check the vocabulary list and use only the available rules.**
 
-${{\color{Red}\normalsize{\textsf{If your pseudocode contains significant amount of invalid usage, you will get 0pt}}}}\$
+${{\color{Red}\normalsize{\textsf{If your pseudocode contains significant amount of invalid usage, you will get 0 pts!}}}}\$
 
 ## Vocabulary
 Use ${{\color{Red}\normalsize{\textsf{ONLY}}}}\$ the following vocabulary.
 
-*replace the bold parts with your variables and expressions.*
+*Replace the bold parts with your variables and expressions.*
 
 - define an int called **variable_name**
-
 example:
 ```
 define an int called i
@@ -56,7 +55,7 @@ while (i < 10)
 
 - if (**boolean_expression**)
   - note 1: inside an if statement, put 4 white spaces for indents
-  - node 2: you can use "else".
+  - note 2: you can use "else".
 
 example:
 ```
